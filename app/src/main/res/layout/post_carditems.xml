@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_fragment">
+
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Title"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_marginTop="60dp"
+        android:background="#726767"/>
+    <TextView
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Post Title"
+        android:textSize="50sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="60dp"
+        android:background="#726767"/>
+    <TextView
+        android:id="@+id/post_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_marginTop="60dp"/>
+
+</LinearLayout>
