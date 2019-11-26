@@ -17,4 +17,9 @@
     <string name="swipe_left_to_register">Not registered? Click to Register</string>
     <string name="Register_title">Register</string>
     <string name="Login_title">Login</string>
+    <string name="counsellor_profile_text">Counsellor Profile</string>
+    <string name="your_name">Your name</string>
+    <string name="describe_yourself">Describe Yourself</string>
+    <string name="counselee_profile">Counselee Profile</string>
+    <string name="hello_would_be_a_good_start">Hello would be a good start</string>
 </resources>

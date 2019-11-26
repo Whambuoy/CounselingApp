@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CounsellorProfile">
+
+    <TextView
+        android:id="@+id/logo_counsellor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/counsellor_profile_text"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_marginTop="60dp"/>
+
+
+
+    <EditText
+        android:id="@+id/Counsellor_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/your_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textPersonName"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/counsellor_phoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textPhonetic"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/counsellor_description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/describe_yourself"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textMultiLine"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Add_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:text="Update profile"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

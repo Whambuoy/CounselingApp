@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -47,7 +48,9 @@ public class RegisterUser extends AppCompatActivity {
                 regin_email = r_email.getText().toString().toLowerCase().trim();
                 regin_password = r_password.getText().toString().trim();
                 regin_cnfpassword = cnfpassword.getText().toString().trim();
-
+                //ADD CODE TO LAUNCH Dashboard
+                Intent dashboard = new Intent(RegisterUser.this, Dashboard.class);
+                RegisterUser.this.startActivity(dashboard);
 
             }
         });
@@ -59,6 +62,9 @@ public class RegisterUser extends AppCompatActivity {
                 lin_email = l_email.getText().toString().toLowerCase().trim();
                 lin_password = l_password.getText().toString().trim();
 
+                //ADD CODE TO LAUNCH PROFILE ACTIVITY
+                Intent role = new Intent(RegisterUser.this, RoleActivity.class);
+                RegisterUser.this.startActivity(role);
 
             }
         });

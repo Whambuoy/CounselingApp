@@ -14,7 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".RoleActivity" />
+        <activity android:name=".chat" />
+        <activity android:name=".Counselee_profile" />
+        <activity android:name=".CounsellorProfile" />
         <activity
             android:name=".RegisterUser"
             android:theme="@style/AppTheme.NoActionBar" />
